@@ -182,11 +182,10 @@ function webclusive_linkedin_login_callback() {
             );
 
             //insert the user into the system
-            $newUser = '';
-            $newUser = absint(wp_insert_user($newUserData));
+            $newUserId = wp_insert_user($newUserData);
 
             //login the new user, and redirect
-            wp_set_auth_cookie($newUser->ID, true, false);
+            wp_set_auth_cookie($newUserId, true, false);
             wp_redirect('/');
         }
     }
