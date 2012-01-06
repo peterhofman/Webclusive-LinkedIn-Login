@@ -1,0 +1,16 @@
+.webclusive_linkedin_login_button{
+    display             : inline-block !important;
+    background-image    : url('../images/icon.png');
+    background-repeat   : no-repeat;
+    background-position : 3px 2px;
+    padding-left        : 25px;
+    padding-right       : 4px;
+    padding-top         : 4px;
+    margin-top          : -2px!important;
+    font-size           : 12px;
+    background-color    : #ffffff;
+    height              : 16px;
+    color               : #0774a9;
+    border              : 1px solid #0774a9;
+    
+}
